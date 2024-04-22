@@ -24,7 +24,7 @@ class PaymentsRepository:
                 }
             }
         )
-        import ipdb; ipdb.set_trace()
+
         try:
             data = {
                 "type": payment.type,
