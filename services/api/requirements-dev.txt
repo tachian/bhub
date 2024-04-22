@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest
+mongomock
+ipdb
+flask-shell-ipython
+moto[sqs]
