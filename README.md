@@ -1,13 +1,13 @@
 # Bhuh - Services
 
 ## Service to create payment
+### Dependencies
+ + [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 
- + Dependencies
-   [MongoDB](https://www.mongodb.com/docs/manual/installation/)
-
- + Class Diagram
+### Class Diagram
    + [Sequence Diagram](https://sequencediagram.org/)
-   + ```
+   + Copy and Paste code below on Sequence Diagram
+```
 title Bhub - Payment Process
 actor Cliente
 participant API
@@ -26,10 +26,3 @@ WORKER->FILA: Solicita Atualização do Status Processamento
 FILA->WORKER: Atualiza Status 
 WORKER->Cliente: Notifica Término Processmento
 ```
-
- + Start server (inside src dir)
-    + `flask run`
-
- + HEALTH endpoints
-    + /health: If API is working, must show {"service": "API Bhub HealthCheck", "version": "9.9.9"}
-
