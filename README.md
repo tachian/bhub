@@ -26,3 +26,5 @@ WORKER->FILA: Solicita Atualização do Status Processamento
 FILA->WORKER: Atualiza Status 
 WORKER->Cliente: Notifica Término Processmento
 ```
+
+
