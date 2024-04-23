@@ -1,6 +1,6 @@
 # Bhuh - API
 
-## Application connects internal requests to external fraud_analysis service
+## Application connects internal requests to AWS lambda processes
 
 ### Tests
     pytest
