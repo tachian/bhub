@@ -4,6 +4,6 @@
 
 
 ### Depencies
-    + [SQS](https://aws.amazon.com/pt/sqs/) 
++ [SQS](https://aws.amazon.com/pt/sqs/) 
 
 
